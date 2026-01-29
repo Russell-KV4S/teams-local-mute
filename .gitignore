@@ -1,0 +1,10 @@
+# Security: Never commit the auth token
+teams_token.txt
+teams_token.txt.tmp
+
+# Logs
+error_log.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
