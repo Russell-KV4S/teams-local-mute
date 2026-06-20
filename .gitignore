@@ -2,9 +2,17 @@
 teams_token.txt
 teams_token.txt.tmp
 
+# Not these files
+Notes.txt
+MuteLauncher.ahk
+
 # Logs
 error_log.txt
 
 # Python cache
 __pycache__/
 *.py[cod]
+
+# Windows Shortcuts (Useless to others)
+*.lnk
+*.exe
