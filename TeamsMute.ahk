@@ -1,6 +1,12 @@
 ﻿#Requires AutoHotkey v2.0
 #SingleInstance Force
 
+; Run as admin so the hotkey works even when an elevated app (like Teams) has focus
+if !A_IsAdmin {
+    Run('*RunAs "' . A_ScriptFullPath . '"')
+    ExitApp()
+}
+
 ; ---------------------------------------------------------------------------
 ; CONFIGURATION
 ; ---------------------------------------------------------------------------
