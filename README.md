@@ -1,3 +1,8 @@
+# Update August 2026 
+It appears Microsoft has removed the API from Teams and this no longer functions :( 
+<br>Win+Alt+K appears to be the best alternative.
+
+----------------------------------------------------------------------------------------------
 # AutoHotkey Teams Mute (Local API)
 
 A lightweight, "blind" mute toggle for Microsoft Teams that works globally—even when Teams is minimized or in the background.
